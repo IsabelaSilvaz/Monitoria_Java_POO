@@ -3,45 +3,46 @@ package monitoriaJava;
 public class AppRetangulo {
 	public static void main(String[] args) {
 		Retangulo retanguloPadrao = new Retangulo ();
-		/*CriaÁ„o/Chamando/Instanciando o objeto Ret‚ngulo da classe Ret‚ngulo na aplicaÁ„o.
-		 *Neste caso n„o foi colocado informaÁıes dentro do par‚metro(parÍnteses) do objeto, com isso os valores do ret‚ngulo ser· PADR√O!
-		 *REFOR«ANDO: O ret‚ngulo padr„o possui esses seguintes valores:
+		/*Cria√ß√£o/Chamando/Instanciando o objeto Ret√¢ngulo da classe Ret√¢ngulo na aplica√ß√£o.
+		 *Neste caso n√£o foi colocado informa√ß√µes dentro do par√¢metro(par√™nteses) do objeto, com isso os valores do ret√¢ngulo ser√° PADR√ÉO!
+		 *REFOR√áANDO: O ret√¢ngulo padr√£o possui esses seguintes valores:
 		 *Cor: Branco;
 		 *Altura: 1;
 		 *Largura: 1;
-		 *Este ret‚ngulo padr„o est· criado no construtor que n„o recebe par‚metros, feito na classe RET¬NGULO!*/
-		System.out.println("RET¬NGULO PELO CONSTRUTOR PADR√O");
+		 *Este ret√¢ngulo padr√£o est√° criado no construtor que n√£o recebe par√¢metros, feito na classe RET√ÇNGULO!*/
+		
+		System.out.println("RET√ÇNGULO PELO CONSTRUTOR PADR√ÉO");
 		System.out.println("Cor: " + retanguloPadrao.getCor());
 		System.out.println("Altura: " + retanguloPadrao.getAltura());
 		System.out.println("Largura: " + retanguloPadrao.getLargura());
-    	/*Utilizando o mÈtodo de acesso GET para pegar as informaÁıes do ret‚ngulo*/
+    	       /*Utilizando o m√©todo de acesso GET para pegar as informa√ß√µes do ret√¢ngulo*/
 		
-		System.out.println("PerÌmetro do Ret‚ngulo: " + retanguloPadrao.calcularPerimetro());
-		/*Foi chamado o mÈtodo calcularPerimetro, que ir· retornar o valor do perÌmetro na tela, que neste caso ser·: 4*/
+		System.out.println("Per√≠metro do Ret√¢ngulo: " + retanguloPadrao.calcularPerimetro());
+		/*Foi chamado o m√©todo calcularPerimetro, que ir√° retornar o valor do per√≠metro na tela, que neste caso ser√°: 4*/
 		
-		System.out.println("¡rea do Ret‚ngulo: " + retanguloPadrao.calcularArea());
-		/*Foi chamado o mÈtodo calcularArea, que ir· retornar o valor da ·rea na tela, que neste caso ser·: 1*/
+		System.out.println("√Årea do Ret√¢ngulo: " + retanguloPadrao.calcularArea());
+		/*Foi chamado o m√©todo calcularArea, que ir√° retornar o valor da √°rea na tela, que neste caso ser√°: 1*/
 		
 		
 		Retangulo retanguloEspecifico = new Retangulo("Vermelho", 4.60, 5.70);
-		/*CriaÁ„o/Chamando/Instanciando outro objeto Ret‚ngulo.
-		 *Neste caso, foi colocado informaÁıes dentro do paramÍtro(parÍnteses), que s„o elas respectivamente:
+		/*Cria√ß√£o/Chamando/Instanciando outro objeto Ret√¢ngulo.
+		 *Neste caso, foi colocado informa√ß√µes dentro do param√™tro(par√™nteses), que s√£o elas respectivamente:
 		 *Cor (Vermelho);
 		 *Largura (4.60);
 		 *Altura (5.70);
-		 *OBS: Na mesma ordem do segundo construtor que foi criado na classe Ret‚ngulo. */
+		 *OBS: Na mesma ordem do segundo construtor que foi criado na classe Ret√¢ngulo. */
 		
-		System.out.println("\n\nRET¬NGULO PELO CONSTRUTOR ONDE RECEBE INFORMA«’ES");
+		System.out.println("\n\nRET√ÇNGULO PELO CONSTRUTOR ONDE RECEBE INFORMA√á√ïES");
 		System.out.println("Cor: " + retanguloEspecifico.getCor());
 		System.out.println("Altura: " + retanguloEspecifico.getAltura());
 		System.out.println("Largura: " + retanguloEspecifico.getLargura());
-		/*Utilizando o mÈtodo de acesso GET para pegar as informaÁıes do ret‚ngulo*/
+		/*Utilizando o m√©todo de acesso GET para pegar as informa√ß√µes do ret√¢ngulo*/
 		
-		System.out.println("PerÌmetro do Ret‚ngulo: " + retanguloEspecifico.calcularPerimetro());
-		/*Foi chamado o mÈtodo calcularPerimetro, que ir· retornar o valor do perÌmetro na tela*/
+		System.out.println("Per√≠metro do Ret√¢ngulo: " + retanguloEspecifico.calcularPerimetro());
+		/*Foi chamado o m√©todo calcularPerimetro, que ir√° retornar o valor do per√≠metro na tela*/
 		
-		System.out.println("¡rea do Ret‚ngulo: " + retanguloEspecifico.calcularArea());
-		/*Foi chamado o mÈtodo calcularArea, que ir· retornar o valor da ·rea na tela*/
+		System.out.println("√Årea do Ret√¢ngulo: " + retanguloEspecifico.calcularArea());
+		/*Foi chamado o m√©todo calcularArea, que ir√° retornar o valor da √°rea na tela*/
 	}
 
 }
